@@ -14,7 +14,7 @@
 
  Console.WriteLine("Введите трехзначное число");
 int n = Convert.ToInt32(Console.ReadLine());
-while (n > -100 & n < 100 | n > 1000 | n < -1000 )
+while (n > -100 & n < 100 | n > 999 | n < -999 )
 {
     Console.WriteLine("Введите трехзначное число!!!");
     int a = Convert.ToInt32(Console.ReadLine());
