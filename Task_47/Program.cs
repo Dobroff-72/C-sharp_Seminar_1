@@ -6,8 +6,9 @@ m = 3, n = 4.
 1 -3,3 8 -9,9
 8 7,8 -7,1 9
 */
-
+Console.WriteLine("Введите количество строк массива: ");
 int rows = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите количество столбцов массива: ");
 int columns = Convert.ToInt32(Console.ReadLine());
 double [,] array = new double[rows,columns];
 fillDoubleArray(array);
