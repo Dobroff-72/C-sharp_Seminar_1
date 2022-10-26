@@ -19,7 +19,7 @@ double[,] fillDoubleArray(double[,] array)
     {
             for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i,j] = new Random().Next(1,10);
+            array[i,j] = new Random().Next(-100,100);
             array[i,j] = Math.Round(array[i,j] + new Random().NextDouble(),1);
         } 
     }
