@@ -25,7 +25,7 @@ for (i = 0; i < n; i++)
     for (c = 0; c <= i; c++)
     {
         Console.Write(" ");
-        Console.Write(factorial(i) / (factorial(c) * factorial(i - c)));
+        Console.Write(factorial(i) / (factorial(c) * factorial(i - c)));   //Можно через (i-1, j-1)+(i-1,j)
     }
     Console.WriteLine();
     Console.WriteLine();
